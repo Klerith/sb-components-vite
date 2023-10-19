@@ -27,6 +27,16 @@
   "engines": {
     "node": ">=12.0.0"
   },
+  "np":{
+    "yarn": false,
+    "contents": [
+      "dist",
+      "package.json",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+
   "scripts": {
     "dev": "npm run storybook",
     "build": "npm run clean && tsc && npm run copyfiles",
