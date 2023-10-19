@@ -6,7 +6,7 @@
     "target": "ES2020",
     "declaration": true, // archivos de declaraciones
     "allowJs": true,
-    // "emitDeclarationOnly": true, // archivos de declaraciones
+    "emitDeclarationOnly": false, // archivos de declaraciones
     "declarationMap": true, // archivos de declaraciones
 
 
@@ -17,10 +17,10 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "allowImportingTsExtensions": false,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true, // aquí
+    "noEmit": false, // aquí
     "jsx": "react-jsx",
 
     /* Linting */
@@ -30,5 +30,5 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  // "references": [{ "path": "./tsconfig.node.json" }]
 }
