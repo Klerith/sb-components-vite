@@ -1,7 +1,8 @@
 {
   "name": "fh-my-storybook-components",
   "private": false,
-  "version": "0.1.0-rc2",
+  "version": "0.2.0",
+  "keywords": ["react","dev", "do-not-use"],
   "type": "module",
   "license": "MIT",
   "main": "dist/index.d.ts",
@@ -16,8 +17,11 @@
     ]
   },
   "files": [
-    "dist"
+    "dist/"
   ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "scripts": {
     "dev": "npm run storybook",
     "build": "npm run clean && tsc && npm run copyfiles",
