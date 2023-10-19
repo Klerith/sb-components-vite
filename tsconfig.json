@@ -7,7 +7,7 @@
     "declaration": true, // archivos de declaraciones
     "allowJs": true,
     "emitDeclarationOnly": false, // archivos de declaraciones
-    "declarationMap": true, // archivos de declaraciones
+    "declarationMap": false, // archivos de declaraciones
 
 
     "useDefineForClassFields": true,
