@@ -37,7 +37,7 @@
     "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
     "clean": "rimraf dist/",
     "publish": "np",
-    "test": "echo 'Error: no test found'"
+    "test": "echo \"No test specified\""
   },
   "peerDependencies": {
     "react": "^16.8.0",
