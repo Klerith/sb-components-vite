@@ -1,7 +1,7 @@
 {
   "name": "fh-my-storybook-components",
   "private": false,
-  "version": "0.2.3",
+  "version": "0.2.4",
   "keywords": [
     "react",
     "dev",
@@ -27,7 +27,6 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  
   "scripts": {
     "dev": "npm run storybook",
     "build": "npm run clean && tsc && npm run copyfiles",
