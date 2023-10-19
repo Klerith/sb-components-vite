@@ -1,11 +1,28 @@
 {
-  "name": "my-storybook",
-  "private": true,
-  "version": "0.0.0",
+  "name": "fh-my-storybook-components",
+  "private": false,
+  "version": "0.1.0",
   "type": "module",
+  "license": "MIT",
+  "main": "dist/index.d.ts",
+  "homepage": "https://fernando-herrera.com",
+  "repository": {
+    "url": "https://github.com/Klerith/sb-components-vite",
+    "type": "git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "dev": "npm run storybook",
-    "build": "tsc && vite build",
+    "build": "",
+    "build:old": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
