@@ -1,8 +1,12 @@
 {
   "name": "fh-my-storybook-components",
   "private": false,
-  "version": "0.2.0",
-  "keywords": ["react","dev", "do-not-use"],
+  "version": "0.2.1-0",
+  "keywords": [
+    "react",
+    "dev",
+    "do-not-use"
+  ],
   "type": "module",
   "license": "MIT",
   "main": "dist/index.d.ts",
@@ -39,8 +43,7 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
