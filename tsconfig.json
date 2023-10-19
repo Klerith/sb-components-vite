@@ -17,10 +17,10 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": false,
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false, // aquí
+    "noEmit": true, // aquí
     "jsx": "react-jsx",
 
     /* Linting */
